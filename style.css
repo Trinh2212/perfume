@@ -182,10 +182,11 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   }
   .item__img {
-    margin-top: 10px;
+    display: block;
     width: 90%;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
+    margin: 0px auto;
   }
   
   .item__img:hover {
@@ -221,6 +222,9 @@ body{
     padding: 15px 0;
   }
 
+  .add-cart:hover{
+    background: #100e91;
+  }
 
 
 .container{
