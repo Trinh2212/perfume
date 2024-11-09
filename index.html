@@ -20,110 +20,117 @@
   </head>
   <body>
     <header class="header">
-
-        <a href="" class="logo">
-            <img width="144px" src="./image/logo.png" alt="logo_perfume_shop">
+        <a href="#" class="header__logo">
+            <img src="./image/logo.png" alt="logo_perfume_shop">
         </a>
-
-        <nav class="navbar">
-            <a href="#">home</a>
-            <a href="#">product</a>
-            <a href="#">contact</a>
+        <nav class="header__navbar">
+            <a class="header__link" href="#">home</a>
+            <a class="header__link" href="#">product</a>
+            <a class="header__link" href="#">sign in</a>
+            <a class="header__link" href="#footer">contact</a>
         </nav>
-
-        <div class="icons">
+        <div class="header__icons">
             <div class="fas fa-search" id="search-btn"></div>
             <div class="fas fa-shopping-cart" id="cart-btn"></div>
             <div class="fas fa-bars" id="menu-btn"></div>
         </div>
-
-        <div class="search-form">
+        <div class="header__search">
             <input type="search" id="search-box" placeholder="search here...">
             <label for="search-box" class="fas fa-search"></label>
         </div>
     </header>
 
-
     <main class="main"> 
-        <h1>sản phẩm trưng bày</h1>
+
+        <div class="main__banner">
+          <div class="banner-content">
+            <h3 >perfume shop</h3>
+            <span >tự tin với mùi hương cuốn hút </span>
+            <p>Chào mừng bạn đến với perfumeshop</p>
+            <a href="#main__title" class="banner-btn">Xem sản phẩm</a>
+          </div>
+        </div>
+
+        <h1 class="main__title" id="main__title">sản phẩm trưng bày</h1>
+
         <div class="main__list-products">
           <section class="item">
-            <img class="item-img" src="./image/product1.png" alt="item_1" />
-            <div class="item_infor">
-                <h3 class="item_title">Roja Parfum</h3>
-                <p class="item_price">8.700.000</p>
+            <img class="item__img" src="./image/product1.png" alt="item_1" />
+            <div class="item__infor">
+                <h3 class="item-title">Roja Parfum</h3>
+                <p class="item-price">8700000</p>
             </div>
-            <a href="./chitietsanpham.html#item1" class="Details">chi tiết sản phẩm</a>
+            <a href="./chitietsanpham.html#item1" class="item__des">chi tiết sản phẩm</a>
             <a href="#" class="add-cart">thêm vào giỏ hàng</a>
           </section>
 
           <section class="item">
-            <img class="item-img" src="./image/product2.png" alt="item_2" />
-            <div class="item_infor">
-                <h3 class="item_title">Luna Rossa Black</h3>
-                <p class="item_price">2.650.000</p>
+            <img class="item__img" src="./image/product2.png" alt="item_2" />
+            <div class="item__infor">
+                <h3 class="item-title">Luna Rossa Black</h3>
+                <p class="item-price">2650000</p>
             </div>
-            <a href="./chitietsanpham.html#item2" class="Details">chi tiết sản phẩm</a>
+            <a href="./chitietsanpham.html#item2" class="item__des">chi tiết sản phẩm</a>
             <a href="#" class="add-cart">thêm vào giỏ hàng</a>
           </section>
 
           <section class="item">
-            <img class="item-img" src="./image/product3.png" alt="item_3" />
-            <div class="item_infor">
-                <h3 class="item_title">Alexandria II</h3>
-                <p class="item_price">8.000.000</p>
+            <img class="item__img" src="./image/product3.png" alt="item_3" />
+            <div class="item__infor">
+                <h3 class="item-title">Alexandria II</h3>
+                <p class="item-price">8000000</p>
             </div>
-            <a href="./chitietsanpham.html#item3" class="Details">chi tiết sản phẩm</a>
+            <a href="./chitietsanpham.html#item3" class="item__des">chi tiết sản phẩm</a>
             <a href="#" class="add-cart">thêm vào giỏ hàng</a>
           </section>
 
           <section class="item">
-            <img class="item-img" src="./image/product4.png" alt="item_4" />
-            <div class="item_infor">
-                <h3 class="item_title">Stronger</h3>
-                <p class="item_price">3.600.000</p>
+            <img class="item__img" src="./image/product4.png" alt="item_4" />
+            <div class="item__infor">
+                <h3 class="item-title">Stronger</h3>
+                <p class="item-price">3600000</p>
             </div>
-            <a href="./chitietsanpham.html#item4" class="Details">chi tiết sản phẩm</a>
+            <a href="./chitietsanpham.html#item4" class="item__des">chi tiết sản phẩm</a>
             <a href="#" class="add-cart">thêm vào giỏ hàng</a>
           </section>
 
           <section class="item">
-            <img class="item-img" src="./image/product5.jpg" alt="item_5" />
-            <div class="item_infor">
-                <h3 class="item_title">Chococo</h3>
-                <p class="item_price">1.998.000</p>
+            <img class="item__img" src="./image/product5.jpg" alt="item_5" />
+            <div class="item__infor">
+                <h3 class="item-title">Chococo</h3>
+                <p class="item-price">1998000</p>
             </div>
-            <a href="./chitietsanpham.html#item5" class="Details">chi tiết sản phẩm</a>
+            <a href="./chitietsanpham.html#item5" class="item__des">chi tiết sản phẩm</a>
             <a href="#" class="add-cart">thêm vào giỏ hàng</a>
           </section>
 
           <section class="item">
-            <img class="item-img" src="./image/product6.jpg" alt="item_6" />
-            <div class="item_infor">
-                <h3 class="item_title">Gucci_Bamboo</h3>
-                <p class="item_price">1.350.000</p>
+            <img class="item__img" src="./image/product6.jpg" alt="item_6" />
+            <div class="item__infor">
+                <h3 class="item-title">Gucci_Bamboo</h3>
+                <p class="item-price">1350000</p>
             </div>
-            <a href="./chitietsanpham.html#item6" class="Details">chi tiết sản phẩm</a>
+            <a href="./chitietsanpham.html#item6" class="item__des">chi tiết sản phẩm</a>
             <a href="#" class="add-cart">thêm vào giỏ hàng</a>
           </section>
 
           <section class="item">
-            <img class="item-img" src="./image/product7.jpg" alt="item_7" />
-            <div class="item_infor">
-                <h3 class="item_title">fernando</h3>
-                <p class="item_price">2.190.000</p>
+            <img class="item__img" src="./image/product7.jpg" alt="item_7" />
+            <div class="item__infor">
+                <h3 class="item-title">fernando</h3>
+                <p class="item-price">2190000</p>
             </div>
-            <a href="./chitietsanpham.html#item7" class="Details">chi tiết sản phẩm</a>
+            <a href="./chitietsanpham.html#item7" class="item__des">chi tiết sản phẩm</a>
             <a href="#" class="add-cart">thêm vào giỏ hàng</a>
           </section>
 
           <section class="item">
-            <img class="item-img" src="./image/product8.jpg" alt="item_8" />
-            <div class="item_infor">
-                <h3 class="item_title">alen</h3>
-                <p class="item_price">2.300.000</p>
+            <img class="item__img" src="./image/product8.jpg" alt="item_8" />
+            <div class="item__infor">
+                <h3 class="item-title">alen</h3>
+                <p class="item-price">2300000</p>
             </div>
-            <a href="./chitietsanpham.html#item8" class="Details">chi tiết sản phẩm</a>
+            <a href="./chitietsanpham.html#item8" class="item__des">chi tiết sản phẩm</a>
             <a href="#" class="add-cart">thêm vào giỏ hàng</a>
           </section>
 
@@ -132,7 +139,7 @@
 
 
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
             <div class="container">
               <div class="row">
                 <div class="col">
@@ -177,11 +184,11 @@
                   <ul>
                     <li>
                       <a href="#!"><i
-                          class="fas fa-phone-alt fa-fw"></i>Hotline: +84 838666779 (24/7)</a>
+                          class="fas fa-phone-alt fa-fw"></i>+84 838666779 (24/7)</a>
                     </li>
                     <li>
                       <a href="#!"><i
-                          class="fas fa-envelope fa-fw"></i>Email: perfumeshop@gmail.com</a>
+                          class="fas fa-envelope fa-fw"></i>perfumeshop@gmail.com</a>
                     </li>
                     <li>
                       <a href="#!"><i class="fas fa-question fa-fw"></i>Câu hỏi thường gặp (FAQ)</a>
