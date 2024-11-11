@@ -139,7 +139,7 @@ body{
 
 .banner-content h3{
     font-size: 6rem;
-    color: #fff;
+    color: #fe6747;
 }
 
 .banner-content span{
@@ -167,19 +167,16 @@ body{
 }
 
 .banner-btn:hover{
-    background-color: #f40909;
+    background-color: #fe6747;
 
 }
-
-
-
 
 
 .main__title {
     text-align: center;
     color: #f40909;
     font-size: 30px;
-    margin-top: 12%;
+    margin-top: 12px;
   }
   
   .main__list-products {
@@ -349,7 +346,7 @@ body{
 
     .col{
         width: 50%;
-        padding: 0 15px;
+        padding: 5px 15px;
       }
 }
 
