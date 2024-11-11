@@ -15,12 +15,13 @@ html{
     overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
-    background: #000;
 }
 
 body{
-    background: #a2b9d4;
-}
+    background: url(./image/istockphoto-2172836783-612x612.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
 .header{
     background: #111113; 
