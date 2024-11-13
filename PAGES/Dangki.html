@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>dang ki</title>
+</head>
+<body class="dangki">
+    <div id="wrapper">
+        <form id="form-register">
+            <h1 class="form-heading">Đăng kí</h1>
+            <div class="form-group">
+                <i class="fa-regular fa-user"></i>
+                <input 
+                type="text" 
+                class="form-input" 
+                required
+                id="username"
+                placeholder="Tên đăng nhập">
+            </div>
+            <div class="form-group">
+                <i class="fa-regular fa-envelope"></i>
+                <input 
+                type="text" 
+                class="form-input" 
+                required
+                id="email"
+                placeholder="Email">
+            </div>
+            <div class="form-group">
+                <i class="fa-solid fa-key"></i>
+                <input 
+                type="password" 
+                class="form-input"
+                required
+                id="password"
+                placeholder="Mật khẩu">
+                <div id="eye">
+                    <i class="fa-regular fa-eye-slash"></i>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <i class="fa-solid fa-key"></i>
+                <input
+                    type="password"
+                    class="form-input"
+                    required
+                    id="repassword"
+                    placeholder="Mật lại khẩu">
+                <div id="secret">
+                    <i class="fa-solid fa-user-secret"></i>
+                </div>
+            </div>
+            <input class="form-submit" type="submit" value="Đăng kí">
+            <p>
+            bạn đã có tài khoản? <a href='./Dangnhap.html' > Đăng nhập </a>
+            </p>
+        </form>
+    </div>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uuid@11.0.3/dist/cjs-browser/index.min.js"></script>
+<script src="../JS/Dangki.js"></script>
+</html>
