@@ -225,19 +225,20 @@ body{
 
   .item__des{
     margin-left: 10px;
-    text-decoration: underline;
+    text-decoration: none;
+  }
+  .item__des:hover{
+    color: #fe6747;
   }
   .add-cart {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    background: #e01414;
-    color: #fff;
-    padding: 15px 0;
+    color: #de1414;
+    cursor: pointer; 
+    background: none;
+    padding-left: 10px;
   }
 
   .add-cart:hover{
-    background: #100e91;
+    color:#0e9135 ;
   }
 
 
