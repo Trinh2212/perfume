@@ -1,262 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./image/favicon.ico.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>PERFUME_SHOP</title>
-    <link
+<html>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>Nước Hoa Ý Cao Cấp</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
+   <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+   <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  </head>
-  <body class="product-page">
-    <header class="header">
-        <a href="#" class="header__logo">
-            <img src="./image/logo.png" alt="logo_perfume_shop">
-        </a>
-        <nav class="header__navbar">
-            <a class="header__link" href="#">home</a>
-            <a class="header__link" href="#">product</a>
-            <a class="header__link" href="./PAGES/Dangnhap.html">sign in</a>
-            <a class="header__link" href="#footer">contact</a>
-        </nav>
-        <div class="header__icons">
-            <div class="fas fa-search" id="search-btn"></div>
-            <a href="./PAGES/cart.html">
-              <div class="fas fa-shopping-cart" id="cart-btn">
-                  <p class="fas no-order-item">0</p>
-              </div>
-            </a>
-            <div class="fas fa-bars" id="menu-btn"></div>
-        </div>
-        <div class="header__search">
-            <input type="search" id="search-box" placeholder="search here...">
-            <label for="search-box" class="fas fa-search"></label>
-        </div>
-    </header>
+</head>
+<body>
+      <header class="header">
+         <a href="#" class="header__logo">
+             <img src="./image/logo.png" alt="logo_perfume_shop">
+         </a>
+         <nav class="header__navbar">
+             <a class="header__link" href="#">home</a>
+             <a class="header__link" href="./PAGES/sanpham.html">product</a>
+             <a class="header__link" href="./PAGES/Dangnhap.html">sign in</a>
+             <a class="header__link" href="#footer">contact</a>
+         </nav>
+         <div class="header__icons">
+             <div class="fas fa-search" id="search-btn"></div>
+             <a href="./PAGES/cart.html">
+               <div class="fas fa-shopping-cart" id="cart-btn">
+                   <p class="fas no-order-item">0</p>
+               </div>
+             </a>
+             <div class="fas fa-bars" id="menu-btn"></div>
+         </div>
+         <div class="header__search">
+             <input type="search" id="search-box" placeholder="search here...">
+             <label for="search-box" class="fas fa-search"></label>
+         </div>
+     </header>
 
-    <main class="main"> 
-        <div class="main__banner">
-          <div class="banner-content">
-            <h3 >perfume shop</h3>
-            <span >tự tin với mùi hương cuốn hút </span>
-            <p>Chào mừng bạn đến với perfume shop</p>
-            <a href="#main__title" class="banner-btn">Xem sản phẩm</a>
-          </div>
-        </div>
+   <main>   
+      <div class="slideshow-container">
 
-        <h1 class="main__title" id="main__title">sản phẩm trưng bày</h1>
+         <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="./image/slider-1.png" style="width:100%">
+         </div>
 
-        <div class="main__list-products">
-          <section class="item" data-id="1" data-name="Roja Parfum" data-price="8700000">
-            <img class="item__img" src="./image/product1.png" alt="item_1" />
-            <div class="item__infor">
-                <h3 class="item-title">Roja Parfum</h3>
-                <p class="item-price">8700000</p>
+         <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="./image/slider-2.png" style="width:100%">
+         </div>
+
+         <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./image/slider-3.png" style="width:100%">
+         </div>
+
+         <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="./image/slider-4.png" style="width:100%">
+         </div>
+
+      </div>
+
+      <div class="content">
+
+         <div class="intro-product">
+            <h2>Sản phẩm nổi bật</h2>
+         </div>
+   
+         <div class="product-container">
+            
+
+            <div>
+               <div class="product">
+                  <img src="./image/nuochoa1.png" alt="">
+               </div>
+               <div class="product-sub">
+                  <p>Nước hoa Versace Eros EDP</p>
+                  <span class="cost-product">12.400.000 VNĐ</span>
+               </div>
             </div>
-            <a href="./chitietsanpham.html#item1" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
 
-          <section class="item" data-id="2" data-name="Luna Rossa Black" data-price="2650000">
-            <img class="item__img" src="./image/product2.png" alt="item_2" />
-            <div class="item__infor">
-                <h3 class="item-title">Luna Rossa Black</h3>
-                <p class="item-price">2650000</p>
+            <div>
+               <div class="product">
+                  <img src="./image/nuochoa6.png" alt="">
+               </div>   
+               <div class="product-sub">
+                  <p>Nước hoa Creed Juventus</p>
+                  <span class="cost-product">8.500.000 VNĐ</span>
+               </div>
             </div>
-            <a href="./chitietsanpham.html#item2" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
 
-          <section class="item" data-id="3" data-name="Alexandria II" data-price="8000000">
-            <img class="item__img" src="./image/product3.png" alt="item_3" />
-            <div class="item__infor">
-                <h3 class="item-title">Alexandria II</h3>
-                <p class="item-price">8000000</p>
+            <div>
+               <div class="product">
+                  <img src="./image/nuochoa8.png" alt="">
+               </div>   
+               <div class="product-sub">
+                  <p>Nước hoa Allure Home Sport</p>
+                  <span class="cost-product">3.890.000 VNĐ</span>
+               </div>
             </div>
-            <a href="./chitietsanpham.html#item3" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
 
-          <section class="item" data-id="4" data-name="Stronger" data-price="3600000">
-            <img class="item__img" src="./image/product4.png" alt="item_4" />
-            <div class="item__infor">
-                <h3 class="item-title">Stronger</h3>
-                <p class="item-price">3600000</p>
+         </div> 
+
+         <div class="member">
+            <h1 >Gốc Thành Viên </h1>
+         </div>
+         
+         <div class="container-item">
+            <div class="item">
+               <img class="order" src="./image/order_3.png" alt="">
+               <p>Ship COD toàn quốc</p>
             </div>
-            <a href="./chitietsanpham.html#item4" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
 
-          <section class="item" data-id="5" data-name="Chococo" data-price="1998000">
-            <img class="item__img" src="./image/product5.png" alt="item_5" />
-            <div class="item__infor">
-                <h3 class="item-title">Chococo</h3>
-                <p class="item-price">1998000</p>
+            <div class="item">
+               <img src="./image/order_1.png" alt="">
+               <p>Tư vấn 24/7</p>
             </div>
-            <a href="./chitietsanpham.html#item5" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
 
-          <section class="item" data-id="6" data-name="Gucci_Bamboo" data-price="1350000">
-            <img class="item__img" src="./image/product6.png" alt="item_6" />
-            <div class="item__infor">
-                <h3 class="item-title">Gucci_Bamboo</h3>
-                <p class="item-price">1350000</p>
+            <div class="item">
+               <img src="./image/order_2.png" alt="">
+               <p>Đặt hàng dễ dàng</p>
             </div>
-            <a href="./chitietsanpham.html#item6" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
 
-          <section class="item" data-id="7" data-name="fernando" data-price="2190000">
-            <img class="item__img" src="./image/product7.png" alt="item_7" />
-            <div class="item__infor">
-                <h3 class="item-title">fernando</h3>
-                <p class="item-price">2190000</p>
+            <div class="item">
+               <img src="./image/order_4.png" alt="">
+               <p>Thanh toán nhanh chống</p>
             </div>
-            <a href="./chitietsanpham.html#item7" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
+         </div>
 
-          <section class="item" data-id="8" data-name="alen" data-price="2300000">
-            <img class="item__img" src="./image/product8.png" alt="item_8" />
-            <div class="item__infor">
-                <h3 class="item-title">alen</h3>
-                <p class="item-price">2300000</p>
-            </div>
-            <a href="./chitietsanpham.html#item8" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
+         <form action="">
+            <h2>Đăng ký để được tư vấn</h2>
 
-          <section class="item" data-id="9" data-name="Gentel Fluidity" data-price="7890000">
-            <img class="item__img" src="./image/product9.png" alt="item_9" />
-            <div class="item__infor">
-                <h3 class="item-title">Gentel Fluidity</h3>
-                <p class="item-price">7890000</p>
-            </div>
-            <a href="./chitietsanpham.html#item9" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
+            <label for="">Email</label>
+            <input type="text" placeholder="Nhập email của bạn">
 
-          <section class="item" data-id="10" data-name="Sillage Royal" data-price="4970000">
-            <img class="item__img" src="./image/product10.png" alt="item_10" />
-            <div class="item__infor">
-                <h3 class="item-title">Sillage Royal</h3>
-                <p class="item-price">4970000</p>
-            </div>
-            <a href="./chitietsanpham.html#item10" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
+            <label for="">SĐT</label>
+            <input type="text" placeholder="Nhập số điện thoại của bạn">
 
-          <section class="item" data-id="11" data-name="Blue Tallisman" data-price="4670000">
-            <img class="item__img" src="./image/product11.png" alt="item_11" />
-            <div class="item__infor">
-                <h3 class="item-title">Blue Tallisman</h3>
-                <p class="item-price">4670000</p>
-            </div>
-            <a href="./chitietsanpham.html#item11" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
+            <textarea name="thongTin" id="text" placeholder="Đề xuất cho chúng tôi"></textarea>
 
-          <section class="item" data-id="12" data-name="Royal danger" data-price="5780000">
-            <img class="item__img" src="./image/product12.png" alt="item_12" />
-            <div class="item__infor">
-                <h3 class="item-title">Royal danger</h3>
-                <p class="item-price">5780000</p>
-            </div>
-            <a href="./chitietsanpham.html#item12" class="item__des">chi tiết sản phẩm</a>
-            <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
-          </section>
+            <input type="submit">
+         </form>   
+      </div>
 
+   </main>
 
+   <footer>
+      <div class="container-footer">
+         <div class="footer-item">
+           <h1>Nước Hoa Luxury</h1>
+            <p>Với hơn 30 năm thành lập và phát triển 
+            chúng tôi tự hào là đơn vị tiên phong,
+            hàng đầu trong lĩnh vực nước hiện nay tại Việt Nam
+            </p> 
+         </div>
+         
+         <div class="footer-item">
+            <h1>Dịch vụ</h1>
+            <p class="aaa">Trang chủ</p>
+            <p class="aaa">Sản phẩm</p>
+            <p class="aaa">Giỏ hàng</p>
+         </div>
+         
+         <div class="footer-item">
+            <h1>Liên hệ</h1>
+            <p>SĐT : 0979618719</p>
+            <img src="./image/FB_Icon.png" alt="">
+            <img src="./image/Zalo_Icon.jpg" alt="">
+            <img src="./image/Tiktok_Icon.webp" alt="">
+         </div>
+      </div>
+   </footer>
+   
+   <script>
+      let slideIndex = 0;
+      showSlides();
 
-    </main>
-    <footer class="footer" id="footer">
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                  <h5>Chính sách</h5>
-                  <ul>
-                    <li>
-                      <a href="#!"><i class="fas fa-user-lock fa-fw"></i> Chính sách bảo mật</a>
-                    </li>
-                    <li>
-                      <a href="#!"><i class="fas fa-shipping-fast fa-fw"></i> Chính sách vận chuyển</a>
-                    </li>
-                    <li>
-                      <a href="#!" ><i class="fas fa-hands-helping fa-fw"></i> Chính sách đổi trả</a>
-                    </li>
-                    <li>
-                      <a href="#!" ><i class="fas fa-book fa-fw"></i> Điều khoản sử dụng</a>
-                    </li>
-                  </ul>
-                </div>
-        
-                <div class="col">
-                  <h5>Thông tin liên hệ</h5>
-                  <ul>
-                    <li>
-                      <a href="#!"><i class="fas fa-school fa-fw"></i> Trường
-                        đại học Cần Thơ</a>
-                    </li>
-                    <li>
-                      <a href="#!"><i class="fas fa-road fa-fw"></i> Khu II,
-                        Đ. 3 Tháng 2, Xuân Khánh, Ninh Kiều, Cần Thơ</a>
-                    </li>
-                    <li>
-                      <a href="#!"><i
-                          class="fas fa-map-marker-alt fa-fw"></i> Trường CNTT-TT</a>
-                    </li>
-                  </ul>
-                </div>
-        
-                <div class="col">
-                  <h5>Hỗ trợ khách hàng</h5>
-        
-                  <ul>
-                    <li>
-                      <a href="#!"><i
-                          class="fas fa-phone-alt fa-fw"></i> +84 838666779 (24/7)</a>
-                    </li>
-                    <li>
-                      <a href="#!"><i
-                          class="fas fa-envelope fa-fw"></i> perfumeshop@gmail.com</a>
-                    </li>
-                    <li>
-                      <a href="#!"><i class="fas fa-question fa-fw"></i> Câu hỏi thường gặp (FAQ)</a>
-                    </li>
-                  </ul>
-                </div>
+      function showSlides() {
+         let i;
+         let slides = document.getElementsByClassName("mySlides");
+         for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+         }
+         slideIndex++;
+         if (slideIndex > slides.length) {slideIndex = 1}
+         slides[slideIndex-1].style.display = "block";
+         setTimeout(showSlides, 2000);
+      }
+      let navbar = document.querySelector(".header__navbar");
 
-                <div class="col">
-                    <h5>Kết nối với chúng tôi</h5>
-                    <ul>
-                      <li>
-                        <a href="#!"><i class="fab fa-facebook-f fa-fw"></i>Facebook</a>
-                      </li>
-                      <li>
-                        <a href="#!" ><i class="fab fa-instagram fa-fw"></i>Instagram</a>
-                      </li>
-                      <li>
-                        <a href="#!" ><i class="fab fa-twitter fa-fw"></i>Twitter</a>
-                      </li>
-                      <li>
-                        <a href="#!"><i class="fab fa-youtube fa-fw"></i>YouTube</a>
-                      </li>
-                    </ul>
-                  </div>
-              </div>
-            </div>
-    </footer>
-    <script src="./JS/sanpham.js"></script>
-  </body>
+document.querySelector("#menu-btn").onclick = () => {
+  navbar.classList.toggle("active");
+};
+
+let searchform = document.querySelector(".header__search");
+
+document.querySelector("#search-btn").onclick = () => {
+  searchform.classList.toggle("active");
+};
+   </script>
+</body>
+
 </html>

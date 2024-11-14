@@ -32,7 +32,7 @@ const repassword = document.getElementById("repassword").value;
 
     
     localStorage.setItem("users", JSON.stringify(userlocal))
-    window.location.href = "Dangnhap.html";
+    window.location.href = "./Dangnhap.html";
 }    
 const formregister = document.getElementById("form-register");
 if(formregister){

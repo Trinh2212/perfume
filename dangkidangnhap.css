@@ -1,0 +1,94 @@
+body.dangnhap{
+    background: url('./image/Background.jpg');
+    background-size: cover;
+    font-size: 17px;
+}
+body.dangki{
+    background: url('./image/Background2.png');
+    background-size: cover;
+    font-size: 17px;
+}
+body p{
+    color: #fff;
+    font-size: 13px;
+    padding-top: 7px;
+    padding-bottom:3px;
+    a{
+        color: rgb(255, 190, 152);
+    }
+    text-align: center;
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+#form-login{
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+}
+#form-register{
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+}
+.form-heading{
+font-size: 25px;
+color: #fff ;
+text-align: center;
+margin-bottom: 35px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: rgb(255, 190, 152);
+    flex-grow: 1;
+}
+.form-group{
+    border-bottom: 1px solid rgb(255, 190, 152);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-grow: 1;
+}
+.form-group i{
+    color: rgb(255, 190, 152);
+    font-size: 13px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.form-input::placeholder{
+    color: rgb(255, 190, 152);
+}
+#eye i{
+    padding-right: 0;
+}
+#secret i{
+    padding-right: 0;
+}
+.form-submit{
+    background: transparent;
+    border: 1px solid rgb(255, 190, 152);
+    color: rgb(255, 190, 152);;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 6px 10px;
+    text-align: center;
+    
+}
+.form-submit:hover{
+    color: #fff;
+}
+#dangki a{
+    font-size: 15px;
+    color: rgb(255, 190, 152);
+    text-align:center;
+    padding: 7px 8px;
+}

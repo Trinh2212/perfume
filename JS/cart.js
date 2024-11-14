@@ -1,3 +1,9 @@
+let navbar = document.querySelector(".header__navbar");
+
+document.querySelector("#menu-btn").onclick = () => {
+  navbar.classList.toggle("active");
+};
+
 function formatCurrency(amount) {
   const formatter = new Intl.NumberFormat("vi-VN", {
     style: "currency",
@@ -80,10 +86,11 @@ function updateCartCount() {
 
 updateCartCount();
 
-
 document.querySelector(".removeAll").addEventListener("click", function () {
   localStorage.removeItem("cart");
-
-  document.querySelector(".cart-container").innerHTML = "";
-  updateCartSummary();
+  cart = [];
+  renderCart();
+  updateCartCount();
+  // document.querySelector(".cart-container").innerHTML = "";
+  cartSummary().textContent = formatCurrency(0);
 });
