@@ -12,7 +12,7 @@ const passwordlogin = document.getElementById("password").value;
     if(!finduser){
         alert("tên tài khoản hoặc mật khẩu sai");
     }else{
-    window.location.href ="index.html";
+    window.location.href ="../index.html";
     }
 }    
 const formregister = document.getElementById("form-login");

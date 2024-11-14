@@ -18,7 +18,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body class="product-page">
     <header class="header">
         <a href="#" class="header__logo">
             <img src="./image/logo.png" alt="logo_perfume_shop">
@@ -31,9 +31,11 @@
         </nav>
         <div class="header__icons">
             <div class="fas fa-search" id="search-btn"></div>
-            <div class="fas fa-shopping-cart" id="cart-btn">
-                <p class="fas no-order-item">0</p>
-            </div>
+            <a href="./PAGES/cart.html">
+              <div class="fas fa-shopping-cart" id="cart-btn">
+                  <p class="fas no-order-item">0</p>
+              </div>
+            </a>
             <div class="fas fa-bars" id="menu-btn"></div>
         </div>
         <div class="header__search">
@@ -55,7 +57,7 @@
         <h1 class="main__title" id="main__title">sản phẩm trưng bày</h1>
 
         <div class="main__list-products">
-          <section class="item">
+          <section class="item" data-id="1" data-name="Roja Parfum" data-price="8700000">
             <img class="item__img" src="./image/product1.png" alt="item_1" />
             <div class="item__infor">
                 <h3 class="item-title">Roja Parfum</h3>
@@ -65,7 +67,7 @@
             <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
           </section>
 
-          <section class="item">
+          <section class="item" data-id="2" data-name="Luna Rossa Black" data-price="2650000">
             <img class="item__img" src="./image/product2.png" alt="item_2" />
             <div class="item__infor">
                 <h3 class="item-title">Luna Rossa Black</h3>
@@ -75,7 +77,7 @@
             <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
           </section>
 
-          <section class="item">
+          <section class="item" data-id="3" data-name="Alexandria II" data-price="8000000">
             <img class="item__img" src="./image/product3.png" alt="item_3" />
             <div class="item__infor">
                 <h3 class="item-title">Alexandria II</h3>
@@ -85,7 +87,7 @@
             <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
           </section>
 
-          <section class="item">
+          <section class="item" data-id="4" data-name="Stronger" data-price="3600000">
             <img class="item__img" src="./image/product4.png" alt="item_4" />
             <div class="item__infor">
                 <h3 class="item-title">Stronger</h3>
@@ -95,7 +97,7 @@
             <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
           </section>
 
-          <section class="item">
+          <section class="item" data-id="5" data-name="Chococo" data-price="1998000">
             <img class="item__img" src="./image/product5.png" alt="item_5" />
             <div class="item__infor">
                 <h3 class="item-title">Chococo</h3>
@@ -105,7 +107,7 @@
             <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
           </section>
 
-          <section class="item">
+          <section class="item" data-id="6" data-name="Gucci_Bamboo" data-price="1350000">
             <img class="item__img" src="./image/product6.png" alt="item_6" />
             <div class="item__infor">
                 <h3 class="item-title">Gucci_Bamboo</h3>
@@ -115,7 +117,7 @@
             <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
           </section>
 
-          <section class="item">
+          <section class="item" data-id="7" data-name="fernando" data-price="2190000">
             <img class="item__img" src="./image/product7.png" alt="item_7" />
             <div class="item__infor">
                 <h3 class="item-title">fernando</h3>
@@ -125,7 +127,7 @@
             <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
           </section>
 
-          <section class="item">
+          <section class="item" data-id="8" data-name="alen" data-price="2300000">
             <img class="item__img" src="./image/product8.png" alt="item_8" />
             <div class="item__infor">
                 <h3 class="item-title">alen</h3>
@@ -135,7 +137,7 @@
             <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
           </section>
 
-          <section class="item">
+          <section class="item" data-id="9" data-name="Gentel Fluidity" data-price="7890000">
             <img class="item__img" src="./image/product9.png" alt="item_9" />
             <div class="item__infor">
                 <h3 class="item-title">Gentel Fluidity</h3>
@@ -145,7 +147,7 @@
             <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
           </section>
 
-          <section class="item">
+          <section class="item" data-id="10" data-name="Sillage Royal" data-price="4970000">
             <img class="item__img" src="./image/product10.png" alt="item_10" />
             <div class="item__infor">
                 <h3 class="item-title">Sillage Royal</h3>
@@ -155,7 +157,7 @@
             <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
           </section>
 
-          <section class="item">
+          <section class="item" data-id="11" data-name="Blue Tallisman" data-price="4670000">
             <img class="item__img" src="./image/product11.png" alt="item_11" />
             <div class="item__infor">
                 <h3 class="item-title">Blue Tallisman</h3>
@@ -165,7 +167,7 @@
             <button class="add-cart"> <i class="fa-solid fa-cart-plus"></i></button>
           </section>
 
-          <section class="item">
+          <section class="item" data-id="12" data-name="Royal danger" data-price="5780000">
             <img class="item__img" src="./image/product12.png" alt="item_12" />
             <div class="item__infor">
                 <h3 class="item-title">Royal danger</h3>

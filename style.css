@@ -17,7 +17,7 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
+body.product-page{
     background: url(./image/option5.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -291,8 +291,8 @@ body{
     padding-left: 10px ;
   }
 
-
-  body.dangnhap{
+/* dang nhap  dang ki*/
+body.dangnhap{
     background: url('./image/Background.jpg');
     background-size: cover;
     font-size: 17px;
@@ -386,6 +386,121 @@ margin-bottom: 35px;
     text-align:center;
     padding: 7px 8px;
 }
+
+/* gio hang */
+.cart-container {
+  min-height: 0px;
+  width: 80%;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cart-part {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.cart-img {
+  width: 20%;
+}
+
+.cart-img img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.cart-desc {
+  font-size: 20px;
+  width: 20%;
+}
+
+.cart-quantity {
+  width: 20%;
+  text-align: center;
+}
+
+.cart-quantity input {
+  padding: 5px 10px;
+  width: 120px;
+  font-size: 15px;
+  border: 1px solid black;
+}
+
+.cart-price {
+  text-align: center;
+  width: 15%;
+}
+
+.cart-total {
+  text-align: center;
+  width: 15%;
+}
+
+.cart-remove {
+  width: 10%;
+}
+
+.cart-remove button {
+  cursor: pointer;
+  background-color: red;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+.cart-remove button:hover {
+  background-color: orange;
+}
+
+.cart-summary {
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+
+.product-total {
+  text-align: right;
+  margin: 10px 0px;
+}
+
+.product-checkout {
+  text-align: right;
+  margin: 10px 0px;
+}
+
+.product-checkout a {
+  display: inline-block;
+  width: 120px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: red;
+  padding: 10px 10px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.product-checkout a:hover {
+  color: #111113;
+}
+
+.removeAll {
+  background-color: red;
+  display: block;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  padding: 10px 20px;
+  font-size: 15px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
 
   @media (max-width:991px) {
 
