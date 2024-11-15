@@ -303,59 +303,49 @@ form input[type="submit"] {
    font-family: Arial, sans-serif;
 }
 
-footer {
-   background-color: #333;
-   color: #fff;
-   padding: 40px 0;
-   font-family: Arial, sans-serif;
+.footer{
+   background-color: #111113;
+   padding: 50px 0;
+   width: 100%;
+   margin: auto;
+ }
+
+ ul{
+   list-style: none;
  }
  
- .container-footer {
-   max-width: 1200px;
-   margin: auto;
+ .row{
    display: flex;
    flex-wrap: wrap;
  }
- 
-.footer-item {
-   flex: 1 1 300px;
-   min-width: 250px;
-   text-align: left;
-   margin: 10px;
+
+ .col{
+   width: 25%;
+   padding: 0 15px;
  }
- 
-.footer-item h1 {
+
+ h5{
    font-size: 18px;
-   color: #f4b400;
-   margin-bottom: 15px;
+   color: white;
+   text-transform: capitalize;
+   margin-bottom: 30px;
+   font-weight: 500;
  }
- 
-.footer-item p {
-   color: #ddd;
-   font-size: 14px;
-   line-height: 1.6;
-   margin-bottom: 10px;
- }
- 
 
-.footer-item p {
+ .col ul li a{
    font-size: 16px;
-   color: #ddd;
-   margin-bottom: 5px;
- }
- 
-.footer-item .aaa:hover {
-   color: #f4b400;
+   text-transform: capitalize;
+   color: white;
+   text-decoration: none;
+   font-weight: 300;
+   display: block;
+   transition: color 0.3s linear,
+   padding 0.3s linear;
  }
 
-.footer-item img {
-   width: 32px;
-   height: 32px;
-   margin-right: 10px;
- }
- 
-.footer-item img:hover {
-   transform: scale(1.1);
+ .col ul li a:hover{
+   color: #c4840d;
+   padding-left: 10px ;
  }
 
  @media (max-width:991px) {
