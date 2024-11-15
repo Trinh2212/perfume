@@ -29,11 +29,6 @@ body {
   flex-direction: column;
 }
 
-/* body{
-    background: url(./image/option1.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-  } */
 
 .header {
   background: #111113;
@@ -363,10 +358,6 @@ h5 {
   .header {
     padding: 1.5rem 2rem;
   }
-
-  /* .main__banner{
-      padding: 2rem;
-    } */
 }
 
 @media (max-width: 768px) {

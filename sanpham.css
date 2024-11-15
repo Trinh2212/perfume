@@ -18,7 +18,7 @@ html{
 }
 
 body.product-page{
-    background: url(./image/option5.jpg) no-repeat;
+    background: url(./image/option3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
   }
@@ -120,57 +120,12 @@ body.product-page{
     color: #dda271;
 }
 
-
-
-
-.main__banner{
-  display: flex;
-  align-items: center;
-  min-height: 70vh;
-  background: url(./image/banner.png) no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding-top: 10rem;
+.banner{
+  margin: 0 auto;
+  margin-top: 9rem;
+  display: block;
 }
 
-.banner-content{
-  padding: 0.5rem;
-  min-width: 50rem;
-}
-
-.banner-content h3{
-    font-size: 6rem;
-    color: #fe6747;
-}
-
-.banner-content span{
-  font-size: 3rem;
-  color: #fff;
-  padding: 1rem;
-  line-height: 1.5;
-}
-
-.banner-content p{
-  font-size: 1.5rem;
-  color: #fff;
-  padding: 1rem;
-  line-height: 1.5;
-}
-
-.banner-btn{
-    display: inline-block;
-    color: #fff;
-    margin-top: 1rem;
-    border-radius: 5rem;
-    padding: 2rem 3.5rem;
-    cursor: pointer;
-    font-size: 1.6rem;
-}
-
-.banner-btn:hover{
-    background-color: #fe6747;
-
-}
 
 
 .main__title {
@@ -184,7 +139,7 @@ body.product-page{
     width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     column-gap: 10px;
   }
   .item {
@@ -243,21 +198,17 @@ body.product-page{
   }
 
 
-.container{
+  .footer{
+    background-color: #111113;
+    padding: 50px 0;
     width: 100%;
     margin: auto;
   }
 
-    .footer{
-    background-color: #111113;
-    padding: 50px 0;
-    }
-    
   ul{
     list-style: none;
   }
   
-
   .row{
     display: flex;
     flex-wrap: wrap;
@@ -302,9 +253,6 @@ body.product-page{
         padding: 1.5rem 2rem;
     }
 
-    /* .main__banner{
-      padding: 2rem;
-    } */
     
 }
 
@@ -340,12 +288,6 @@ body.product-page{
         right: 2rem;
     }
 
-    .banner-content h3{
-      font-size: 5rem;
-    }
-    .banner-content span{
-      font-size: 2.5rem;
-    }
 
     .col{
         width: 50%;
